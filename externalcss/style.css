@@ -1,0 +1,70 @@
+/* CSS Styles explained */
+p { 
+	color: blue; 
+	text-align: justify; 
+}
+#p1{
+ color: brown;
+ text-align: justify;
+
+}
+.p2{
+	color: indigo;
+	text-align: justify;
+	font-size: medium;
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+.image{
+	width: 20%;
+	border: 2px solid red;
+	border-radius: 50px;
+	/*space btw border item and border*/
+	padding-left: 30px;
+	padding-top: 30px;
+	padding-bottom: 10px;
+	padding-right: 30px;
+	/*spacing btw image and outer margin*/
+	margin: 100px 30px 30px 30px;
+}
+.container{
+	height: 120px;
+    width: 50%;
+    border: 5px solid black;
+    padding-left: 50px;
+    padding-top: 50px;
+    font-size: 42px;
+    font-weight: bold;
+    color: green;
+    margin-left: 50px;
+    margin-top: 50px;
+
+}
+.container2{
+	display: flex;
+	height: 120px;
+    width: 50%;
+    border: 5px solid black;
+    padding-left: 50px;
+    padding-top: 50px;
+    font-size: 42px;
+    font-weight: bold;
+    color: rgb(128, 128, 0);
+    margin-left: 50px;
+    margin-top: 50px;
+
+}
+.item{
+	display: inline-block;
+	gap: 40px;
+	column-gap: 10px;
+	border-style: solid black;
+	outline-style: solid;
+    outline-color: rgb(14, 1, 1);
+}
+img{
+	width: 300px;
+	height: 80;
+	gap: 10px;
+	border-radius: 20px;
+	border-style: solid black;
+}
